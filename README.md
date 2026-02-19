@@ -18,13 +18,17 @@ Sistemul implementează și compară trei metode distincte de detectare a anomal
 
 ## 💻 Tehnologii Utilizate
 * Python
-* Jupyter Notebook
+* Google Colab
 * **PyOD** (Python Outlier Detection)
 * Scikit-learn
 * Pandas, NumPy, Matplotlib
 
-## 🚀 Cum să rulezi proiectul local
+## 🚀 Cum să rulezi proiectul în Google Colab
 
-1. Clonează acest repository:
-   ```bash
-   git clone [https://github.com/username/numele-repository-ului.git](https://github.com/username/numele-repository-ului.git)
+Acest proiect a fost dezvoltat și este recomandat să fie rulat direct în mediul Google Colab.
+
+1. Descarcă fișierul .ipynb și setul de date (fișierul CSV) din acest repository.
+2. Accesează [Google Colab](https://colab.research.google.com/).
+3. Alege opțiunea **Upload** din meniul principal și încarcă fișierul `tema2TIA.ipynb`.
+4. **Încărcarea setului de date:** Pentru ca notebook-ul să funcționeze, trebuie să încarci manual setul de date. Deschide panoul din partea stângă a ecranului (făcând click pe pictograma în formă de folder/fișier) și trage fișierul CSV cu datele NBA acolo.
+5. Pentru a asigura instalarea bibliotecii necesare în mediul Colab, rulează următoarea comandă într-o celulă de cod la începutul notebook-ului:
